@@ -1,0 +1,10 @@
+{% extends "admin/adminbasefront.html.twig" %}
+
+
+{% block body %}
+    <h2>{{ playlist.name }}</h2>
+    <br>
+    {{ form_start(formplaylists) }}
+
+    {{ form_end(formplaylists) }}
+{% endblock %}
